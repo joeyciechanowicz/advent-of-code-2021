@@ -1,0 +1,40 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyciechanowicz/advent-of-code-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyciechanowicz/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/joeyciechanowicz/advent-of-code-2021#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ],
+    "env": {
+      "node": true
+    }
+  },
+  "prettier": {
+    "proseWrap": "always",
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
