@@ -10,5 +10,5 @@
 
 
 >&:0`v
-^    _       - read all ints from stdin until empty
+^    _ @empty      - read all ints from stdin until empty
 

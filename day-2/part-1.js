@@ -6,10 +6,6 @@ const position = fs
   .split('\n')
   .map((x, i) => {
     const parts = x.split(' ');
-    if (parts.length !== 2) {
-      console.log('Invalid line', i, x);
-      return;
-    }
     return [parts[0], parseInt(parts[1])];
   })
   .reduce(
